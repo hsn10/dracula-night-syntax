@@ -4,19 +4,19 @@
 // when they include a syntax-variables.less file.
 
 // General colors
-@syntax-text-color: @base[fg];
-@syntax-cursor-color: @base[white];
-@syntax-selection-color: @misc[selection];
-@syntax-background-color: @base[bg];
+@syntax-text-color: @base_fg;
+@syntax-cursor-color: @base_white;
+@syntax-selection-color: @misc_selection;
+@syntax-background-color: @base_bg;
 
 // Guide colors
-@syntax-wrap-guide-color: @misc[nonText];
-@syntax-indent-guide-color: @misc[nonText];
-@syntax-invisible-character-color: @misc[nonText];
+@syntax-wrap-guide-color: @misc_nonText;
+@syntax-indent-guide-color: @misc_nonText;
+@syntax-invisible-character-color: @misc_nonText;
 
 // For find and replace markers
-@syntax-result-marker-color: alpha(@base[orange], 0.8);
-@syntax-result-marker-color-selected: alpha(@base[white], 0.4);
+@syntax-result-marker-color: alpha(@base_orange, 0.8);
+@syntax-result-marker-color-selected: alpha(@base_white, 0.4);
 
 // Gutter colors
 @syntax-gutter-text-color: @syntax-text-color;
@@ -25,7 +25,7 @@
 @syntax-gutter-background-color-selected: transparent;
 
 // For git diff info. i.e. in the gutter
-@syntax-color-renamed: @base[orange];
-@syntax-color-added: @base[green];
-@syntax-color-modified: @base[orange];
-@syntax-color-removed: @base[red];
+@syntax-color-renamed: @base_orange;
+@syntax-color-added: @base_green;
+@syntax-color-modified: @base_orange;
+@syntax-color-removed: @base_red;
