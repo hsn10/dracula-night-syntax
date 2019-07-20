@@ -2,12 +2,12 @@
   "name": "dracula-night-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "Dracula At Night syntax theme",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/dracula-night-syntax",
+  "repository": "https://gitlab.com/hsn10/dracula-night-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
