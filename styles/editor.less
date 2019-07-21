@@ -5,21 +5,24 @@ atom-text-editor {
     position: absolute;
     border-left: @syntax-cursor-color solid 2px;
     background-color: transparent;
- }
- .line-number {
-    opacity: 1.0;
-}
- .gutter {
+  }
+  .line-number {
+     opacity: 1.0;
+   }
+  .gutter {
     color: @syntax-gutter-text-color;
     background: @syntax-gutter-background-color;
     .cursor-line {
       color: @syntax-gutter-text-color-selected;
     }
- }
-  .selection .region {
-     background-color: @syntax-selection-color;
-     border-color: @base_orange;
-     border-width: 1px;
-     border-style: solid;
   }
+}
+
+.editor.has-selection.is-focused {
+ .highlight.selection .region {
+   background-color: @syntax-selection-color;
+   border-color: @base_orange;
+   border-width: 1px;
+   border-style: solid;
+ }
 }
