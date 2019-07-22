@@ -16,6 +16,16 @@ atom-text-editor {
       color: @syntax-gutter-text-color-selected;
     }
   }
+  .highlight.find-result .region {
+     background-color: @syntax-result-marker-color;
+     border: none;
+     border-radius: 0;
+   }
+   .highlight.current-result .region {
+      background-color: @syntax-result-marker-color-selected;
+      border: none;
+      border-radius: 0;
+   }
 }
 
 .editor.has-selection.is-focused {
