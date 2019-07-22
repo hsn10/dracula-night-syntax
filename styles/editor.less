@@ -40,6 +40,13 @@ atom-text-editor {
  }
 }
 
+.editor.is-focused {
+  .line.cursor-line {
+    background-color: @misc_lineHighlight;
+    border: none;
+  }
+}
+
 atom-text-editor .highlight.code-highlight-marker .region {
    background-color: fade(@base_cyan, 50);
    border: none;
