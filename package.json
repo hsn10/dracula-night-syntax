@@ -8,8 +8,14 @@
     "theme",
     "dark"
   ],
-  "repository": "https://gitlab.com/hsn10/dracula-night-syntax",
+  "repository": {
+     "type": "git",
+     "url": "https://gitlab.com/hsn10/dracula-night-syntax"
+  },
   "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/hsn10/dracula-night-syntax/issues"
+  },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   }
