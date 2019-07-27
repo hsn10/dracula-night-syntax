@@ -31,15 +31,15 @@
 @syntax-color-removed: fade(@base_red,80);
 
 // For language entity colors
-@syntax-color-variable: #008080;
-@syntax-color-constant: #099;
-@syntax-color-property: #333;
+@syntax-color-variable: @base_fg;
+@syntax-color-constant: @base_orange;
+@syntax-color-property: @base_fg;
 @syntax-color-value: @syntax-color-constant;
-@syntax-color-function: #900;
+@syntax-color-function: @base_green;
 @syntax-color-method: @syntax-color-function;
-@syntax-color-class: #606aa1;
-@syntax-color-keyword: #222;
-@syntax-color-tag: #008080;
-@syntax-color-attribute: #458;
+@syntax-color-class: @base_green;
+@syntax-color-keyword: @base_pink;
+@syntax-color-tag: @base_fg;
+@syntax-color-attribute:@syntax-color-property;
 @syntax-color-import: @syntax-color-keyword;
 @syntax-color-snippet: @syntax-color-constant;
